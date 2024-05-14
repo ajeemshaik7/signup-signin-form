@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+</head>
+<body>
+    <h1>Sign up page</h1>
+<!--AJEEMSHAIK7-->
+<form action="/signup" method="post">
+{% csrf_token %}
+    <label for="">Username</label>
+    <input type="text" id="username" name="username" placeholder="Enter username" required>
+    <br>
+
+    <label for="">Firsname</label>
+    <input type="text" id="firstname" name="firstname" placeholder="Enter your firstname" required>
+    <br>
+
+    <label for="">Lastname</label>
+    <input type="text" id="lastname" name="lastname" placeholder="Enter your last name" required>
+    <br>
+
+    <label for="">Email</label>
+    <input type="email" id="email" name="email" placeholder="Enter your Email" required>
+    <br>
+
+    <label for="">Password</label>
+    <input type="password" id="password" name="password" placeholder="Enter your password" required>
+    <br>
+
+    <label for="">confirm password</label>
+    <input type="password" id="password2" name="password2" placeholder="Re-Enter to confirm" required>
+    <br>
+
+    <button type="submit">Signup</button>
+    <h4>Already have an account!<a href="/signin"> Log In</a></button> </h4>
+    <button type="submit"><a href="/">Home</a></button>
+
+    </form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--AJEEMSHAIK7-->
